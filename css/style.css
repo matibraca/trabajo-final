@@ -239,9 +239,13 @@ footer .sociales .instagram{
 footer .sociales .whatsapp{
     color: greenyellow;
 }
+/*MEDIA*/
 
-
-@media only screen and (max-width:600px){
+@media (max-width:600px){
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+    }
 
     .div_grid{
         padding-bottom: 30px;
@@ -265,7 +269,7 @@ footer .sociales .whatsapp{
         flex-direction: column;
         padding: 40px 0px;
         color: white;
-        margin: 0px 0px 0px 80px;
+        width: 100%;
 
     }
     .footer-h4{
@@ -275,8 +279,14 @@ footer .sociales .whatsapp{
         margin-bottom: 16px;
         text-align: center;
     }
+}
 
-    @media screen and (min-width: 601px) and (max-width:800px){
+    @media (min-width: 601px) and (max-width: 800px) {
+        .navbar-collapse{
+            display: flex;
+            justify-content: center;
+        }
+
         .section-p{
             margin: 48px;
             text-align: justify;
@@ -285,6 +295,7 @@ footer .sociales .whatsapp{
 
 
         .div_grid{
+
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             padding: 15px;
@@ -312,17 +323,23 @@ footer .sociales .whatsapp{
 
         footer .sociales{
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
-            align-items: baseline;
+            align-items: center;
+            flex-wrap: wrap;
             padding: 60px 35px;
+            width: 100%;
             color: white;
+        }
+        .info{
+            padding-left: 80px;
         }
         .footer-h4{
             margin-bottom: 20px;
         }
-        
-    }
+
+    }        
+
+
 
 
 
@@ -483,7 +500,53 @@ footer .sociales .instagram{
 footer .sociales .whatsapp{
     color: greenyellow;
 }
-   
+   /*MEDIA*/
+
+@media (max-width:600px){
+
+    .h1-servicios{
+        font-size: 3rem;
+    }
+    .card-group{
+        display: block;
+        gap: 15px;
+        margin: auto 15px;
+    }
+
+    .list-equipo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .name-equipo{
+        margin-bottom: 25px;
+    }
+
+    footer{
+        display: flex;
+    }
+    footer .sociales {
+        
+        flex-direction: column;
+        padding: 40px 0px;
+        color: white;
+        width: 100%;
+
+    }
+    .footer-h4{
+        margin-bottom: 20px;
+    }
+    .info{
+        margin-bottom: 16px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+    .h1-servicios{
+        font-size: 3rem;
+    }
+}
 /*FIN DE SERVICIOS*/
 
    /*COMIENZA BLOG*/
@@ -502,7 +565,10 @@ footer .sociales .whatsapp{
     font-weight: 400;
     letter-spacing: 0.20em;
 }
-
+.row{
+    padding: 10px 15px;
+    width: 100%;
+}
 
 footer h4{
     width: 0;
@@ -535,6 +601,28 @@ footer .sociales .whatsapp{
     color: greenyellow;
 }
 
+/*MEDIA*/
+@media (max-width:600px){
+    main{
+        background-color: black;
+    }
+    .h1-blog{
+        font-size: 3rem;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .row{
+        align-items: center;
+    }
+    
+}
+@media (min-width: 601px) and (max-width: 800px){
+
+}
+
+
+
+
 
 
 
@@ -543,6 +631,7 @@ footer .sociales .whatsapp{
 .navbar{
     background-color: #d69112;
 }
+
 .article-quienes{
     margin: 15px;
 }
@@ -570,6 +659,13 @@ footer .sociales .whatsapp{
 .article-quienes img{
     float: left;
     padding: 0px 10px;
+}
+
+/*MEDIA*/
+@media (max-width:600px){
+    .h1-jhs{
+        font-size: 3rem;
+    }
 }
 
 /* COMINEZA TURNOS*/
@@ -646,17 +742,28 @@ footer .sociales .whatsapp{
 
 
 .maps-ubi{
+    font-family: Ultra;
     font-style: italic;
-    text-align: center;
-    margin: 40px;
-    font-size: 38px;
+    color: #927414;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;margin-top: 20px;
 
 }
 
 iframe{
     width: 100%;
     margin-top: 15px;
-    margin-bottom: -7px;
-}
+    margin-bottom: -7px
+}/*MEDIA*/
 
-/*fin turnos*/
+@media (max-width:600px){
+    .h1-turnos{
+        font-size: 3rem;
+    }
+
+    .maps-ubi{
+        font-size: 25px;
+    }
+
+}
