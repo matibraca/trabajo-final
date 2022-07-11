@@ -407,39 +407,47 @@ footer .sociales .whatsapp{
     background-color: #d69112;
 }
 
-
-
-.nav__h2{
-    font-size: 55px;
+.h1-blog{
+    font-style: italic;
     text-align: center;
-    color: whitesmoke;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.div-grid{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
-   
+    margin:20px;
+    font-family: Ultra;
+    color: #927414;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.20em;
 }
 
-footer{
-    grid-template-areas: footer;
-}
 
-.footer-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
- 
+footer h4{
+    width: 0;
+    float: left;
     
 }
-.p{grid-column: 1/2;
+.sociales ul{
+    list-style: none;
+}
 
+
+.sociales a{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding: 15px;
 }
-.redes{
-    grid-column: 2/3;
+
+footer .sociales .facebook{
+    color: blue;
+    
 }
-.mapa{
-    grid-column: 3/4;
+
+footer .sociales .instagram{
+    color: rgb(207, 109, 109);
+}
+
+footer .sociales .whatsapp{
+    color: greenyellow;
 }
 
 
@@ -450,64 +458,28 @@ footer{
 .navbar{
     background-color: #d69112;
 }
-
-
-
-
-img{
-    border-top: solid 3px  rgb(19, 18, 18);;
-    border-right: solid 3px  rgb(19, 18, 18);;
-    border-bottom: solid 3px  rgb(19, 18, 18);;
-    border-left: solid 3px rgb(19, 18, 18);;
-    
+.main-quie p{
+    letter-spacing: 0.25px;
+    margin-bottom: 24px;
+    text-align: right;
+    display: inline-block;
 
 }
-.padre-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    padding-top: 3rem;
-    margin:1rem;
-}
-section img{
-    border-top: solid 3px black;
-    border-right: solid 3px black;
-    border-bottom: solid 3px black;
-    border-left: solid 3px black;
-}
 
-    
+.h1-jhs{
 
-.p {
-    font-family: Roboto ;
-    margin-bottom: 10px;
-    font-size: 25px;
+    margin-top: 0px;
+    font-family: Ultra;
+    color: #927414;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.20em;
+    text-align: center;
+
 }
 
 
-footer{
-    grid-template-areas: footer;
-}
 
-.footer-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    list-style: none;
-    justify-items: center;
-
-   
-    background-color: #77746f;
-   
-}
-
-.grid-redes{
-    display: grid;
-    justify-items: center;
-    list-style: none;
-
-}
 
 
 
