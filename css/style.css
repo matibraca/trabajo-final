@@ -1,0 +1,668 @@
+/*index */
+/*div fondo panatalla*/
+
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/*index*/
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-image: url(../imagenes/64240-barberia.jpg);
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+
+.navbar{
+    background-color: #d69112;
+}
+
+/*section*/
+
+.section{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-h2{
+    text-align: center;
+}
+.border-span{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+.section-p{
+    margin: 48px auto;
+    max-width: 630px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+strong{
+    font-weight: 400;
+}
+span{
+    font-style: italic;
+}
+
+/*comienza main*/
+
+.contenedor-main{
+    background-image: linear-gradient(103deg, black, transparent);
+    color: white;
+
+}
+.div-main{
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 30px;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+}
+.main-p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: italic;
+    text-align: center;
+    margin-top:20px ;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+
+.div_grid{
+
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;   
+}
+
+
+img{
+    border: solid 5px;
+    border-color: white;
+}
+
+.card {
+    width: 230 px;
+    height: 260px;
+
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: revert;
+    transition: transform .25s 
+    ease-in-out;
+
+}
+
+/*div equipo*/
+.grupo-equipo{
+    background: white;
+    width: 100%;
+}
+
+.equipo{
+    text-align: center;
+    padding-block: 50px;
+
+}
+
+.h2-equipo{
+
+    margin: 0px 0px 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+}
+
+h6{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* imagenes barberos*/
+
+
+.list-equipo{
+    display: flex;
+    text-align: center;
+    padding: 50px 0px 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.nam-equipo{
+    width: 30%
+}
+.nombre{
+    width: 100%;
+}
+
+.nombre h4{
+    margin-bottom: 6px;
+}
+h4{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nombre h6{
+    margin-bottom: 20px;
+}
+
+.p-nombre{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+    padding: inherit;
+}
+
+
+
+/* footer*/
+
+footer{
+    width: 100%;
+    background: black;
+    padding: auto;
+    
+}
+
+footer .sociales {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 35px;
+    align-items: center;
+    color: white;
+}
+
+footer h4{
+    width: 0;
+    float: left;
+    
+}
+.sociales ul{
+    list-style: none;
+}
+
+
+.sociales a{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+footer .sociales .facebook{
+    color: blue;
+    
+}
+
+footer .sociales .instagram{
+    color: rgb(207, 109, 109);
+}
+
+footer .sociales .whatsapp{
+    color: greenyellow;
+}
+
+/*FIN DE INDEX*/
+
+/*ARRANCA SERVICIOS*/
+
+.navbar{
+    
+    background-color: #d69112;
+ 
+}
+
+    
+
+
+.main-grid{
+    background-color: rgb(66, 66, 66);
+   
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.h1-servicios{
+    margin-top: 0px;
+    font-family: Ultra;
+    color: #927414;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.20em;
+}
+.p-h1{
+    max-width: 80%;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #d1c6a3f7;
+}
+/* NUESTROS TRABAJOS + IMAGENES*/
+
+.contenedor-section{
+    background-image: linear-gradient(103deg, black, transparent);
+    color: #d1c6a3f7;
+
+}
+.div-section{
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 30px;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+    color: #d1c6a3f7;
+}
+.section-p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: italic;
+    text-align: center;
+    margin-top:20px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* imagenes barberos*/
+
+
+.list-equipo{
+    display: flex;
+    text-align: center;
+    padding: 50px 0px 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.nam-equipo{
+    width: 30%
+}
+.nombre{
+    width: 100%;
+}
+
+.nombre h4{
+    margin-bottom: 6px;
+}
+h4{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nombre h6{
+    margin-bottom: 20px;
+}
+
+.p-nombre{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+    padding: inherit;
+}
+
+
+
+/*arranca footer*/
+
+footer{
+    width: 100%;
+    background: rgb(87, 84, 84);
+    
+    
+}
+
+footer .sociales {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 35px;
+    align-items: center;
+    color: white;
+}
+
+footer h4{
+    width: 0;
+    float: left;
+    
+}
+.sociales ul{
+    list-style: none;
+}
+
+
+.sociales a{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+footer .sociales .facebook{
+    color: blue;
+    
+}
+
+footer .sociales .instagram{
+    color: rgb(207, 109, 109);
+}
+
+footer .sociales .whatsapp{
+    color: greenyellow;
+}
+   
+/*FIN DE SERVICIOS*/
+
+   /*COMIENZA BLOG*/
+
+.navbar{
+    background-color: #d69112;
+}
+
+
+
+.nav__h2{
+    font-size: 55px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.div-grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+   
+}
+
+footer{
+    grid-template-areas: footer;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+    
+}
+.p{grid-column: 1/2;
+
+}
+.redes{
+    grid-column: 2/3;
+}
+.mapa{
+    grid-column: 3/4;
+}
+
+
+
+
+/*quienes somos*/
+
+.navbar{
+    background-color: #d69112;
+}
+
+
+
+
+img{
+    border-top: solid 3px  rgb(19, 18, 18);;
+    border-right: solid 3px  rgb(19, 18, 18);;
+    border-bottom: solid 3px  rgb(19, 18, 18);;
+    border-left: solid 3px rgb(19, 18, 18);;
+    
+
+}
+.padre-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 3rem;
+    margin:1rem;
+}
+section img{
+    border-top: solid 3px black;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    border-left: solid 3px black;
+}
+
+    
+
+.p {
+    font-family: Roboto ;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+footer{
+    grid-template-areas: footer;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    justify-items: center;
+
+   
+    background-color: #77746f;
+   
+}
+
+.grid-redes{
+    display: grid;
+    justify-items: center;
+    list-style: none;
+
+}
+
+
+
+
+/* COMINEZA TURNOS*/
+
+
+.h1-turnos{
+    font-style: italic;
+    text-align: center;
+    margin:20px;
+    font-family: Ultra;
+    color: #927414;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.20em;
+}
+
+.form-registro{
+    width: 350px;
+    background-color: dimgrey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.form-registro h3{
+    font-size: 23px ;
+    margin-bottom: 20px;
+}
+.controls{
+    width:100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    border: 2px solid blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+.form-registro label{
+    margin: 0px 20px;
+}
+ .form-registro p{
+     height: 40px;
+     text-align: center;
+     font-size: 16px;
+     line-height: 40px;
+ }
+.form-registro a{
+    color: white;
+    text-decoration: none;
+
+}
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+.form-registro .botons{
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+
+.maps-ubi{
+    font-style: italic;
+    text-align: center;
+    margin: 40px;
+    font-size: 38px;
+
+}
+
+iframe{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: -7px;
+}
+
+/*fin turnos*/
+
+/*media */
+
+@media (max-width:480px){
+    header{height: 100% ;
+        
+    }
+
+    aside{
+        height: 100%;
+    }
+   main{
+       height: 100%;
+   }
+   footer{
+       height: 100%;
+   }
+
+   .conteiner__grid{
+       display: grid;
+       grid-template-columns: 1fr;
+       
+       grid-template-areas:
+       "header"
+       "aside"
+       "main"
+       "footer"
+        ;
+   }
+ 
+
+
+
+}
+    
+ /**
+@media (min-width:480px)and (max-width:768px){
+    header{height: 100% ;
+
+        header {
+
+            display: ;
+            flex-direction:column;
+        }
+
+    
+    aside{
+        height: 100%;
+    }
+    main{
+       height: 100%;
+    }
+    footer{
+       height: 100%;
+    }
+
+   .conteiner__grid{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-areas:
+       "header"
+       "aside"
+       "main"
+       "footer"
+        ;
+    }
+
+    
