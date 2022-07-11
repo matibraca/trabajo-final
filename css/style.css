@@ -458,13 +458,6 @@ footer .sociales .whatsapp{
 .navbar{
     background-color: #d69112;
 }
-.main-quie p{
-    letter-spacing: 0.25px;
-    margin-bottom: 24px;
-    
-    float: left;
-
-}
 
 .h1-jhs{
 
@@ -477,7 +470,20 @@ footer .sociales .whatsapp{
     text-align: center;
 
 }
+.article-quienes p{
+    background: white;
+    letter-spacing: 0.25px;
+    margin-bottom: 39px;
+    font-size: 20px;
+    line-height: 2;
+    padding: 0px 5px;
+    font-style: italic;
+}
 
+.article-quienes img{
+    float: left;
+    padding: 0px 10px;
+}
 
 
 
