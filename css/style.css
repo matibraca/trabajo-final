@@ -461,8 +461,8 @@ footer .sociales .whatsapp{
 .main-quie p{
     letter-spacing: 0.25px;
     margin-bottom: 24px;
-    text-align: right;
-    display: inline-block;
+    
+    float: left;
 
 }
 
