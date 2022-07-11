@@ -73,7 +73,7 @@ span{
 h2{
     font-style: italic;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:ui-serif;
     padding-bottom: 15px;
 }
 .main-p{
@@ -141,6 +141,7 @@ img{
     font-size: 36px;
     text-transform: uppercase;
     letter-spacing: 0.20em;
+    font-family: ui-serif;
 }
 
 h6{
@@ -158,17 +159,18 @@ h6{
     padding: 50px 0px 30px;
     justify-content: center;
     flex-wrap: wrap;
+    list-style: none;
+    column-gap: 40px;
     
 }
-.nam-equipo{
-    width: 30%
-}
+
 .nombre{
     width: 100%;
 }
 
 .nombre h4{
     margin-bottom: 6px;
+    font-family: ui-serif;
 }
 h4{
     font-size: 1em;
@@ -238,6 +240,92 @@ footer .sociales .whatsapp{
     color: greenyellow;
 }
 
+
+@media only screen and (max-width:600px){
+
+    .div_grid{
+        padding-bottom: 30px;
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    .list-equipo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .name-equipo{
+        margin-bottom: 25px;
+    }
+
+    footer{
+        display: flex;
+    }
+    footer .sociales {
+        
+        flex-direction: column;
+        padding: 40px 0px;
+        color: white;
+        margin: 0px 0px 0px 80px;
+
+    }
+    .footer-h4{
+        margin-bottom: 20px;
+    }
+    .info{
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 601px) and (max-width:800px){
+        .section-p{
+            margin: 48px;
+            text-align: justify;
+        
+        }
+
+
+        .div_grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 15px;
+            gap: 15px;
+        } 
+
+        .list-equipo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            list-style: none;
+            column-gap: 40px;
+        }
+
+        .name-equipo{
+            margin-bottom: 20px;
+        }
+       
+
+        footer{
+
+            display: flex;
+        }
+
+        footer .sociales{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 60px 35px;
+            color: white;
+        }
+        .footer-h4{
+            margin-bottom: 20px;
+        }
+        
+    }
+
+
+
 /*FIN DE INDEX*/
 
 /*ARRANCA SERVICIOS*/
@@ -247,9 +335,6 @@ footer .sociales .whatsapp{
     background-color: #d69112;
  
 }
-
-    
-
 
 .main-grid{
     background-color: rgb(66, 66, 66);
@@ -294,7 +379,7 @@ footer .sociales .whatsapp{
 h2{
     font-style: italic;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:ui-serif;
     padding-bottom: 15px;
     color: #d1c6a3f7;
 }
@@ -322,7 +407,7 @@ h2{
     
 }
 .nam-equipo{
-    width: 30%
+    width: 30%;
 }
 .nombre{
     width: 100%;
@@ -381,7 +466,7 @@ footer h4{
 .sociales a{
     font-size: 35px;
     color: #fff;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     flex-wrap: wrap;
     padding: 15px;
 }
@@ -458,7 +543,9 @@ footer .sociales .whatsapp{
 .navbar{
     background-color: #d69112;
 }
-
+.article-quienes{
+    margin: 15px;
+}
 .h1-jhs{
 
     margin-top: 0px;
@@ -485,18 +572,13 @@ footer .sociales .whatsapp{
     padding: 0px 10px;
 }
 
-
-
-
-
-
 /* COMINEZA TURNOS*/
 
 
 .h1-turnos{
     font-style: italic;
     text-align: center;
-    margin:20px;
+    margin: 20px;
     font-family: Ultra;
     color: #927414;
     font-size: 4rem;
@@ -514,10 +596,12 @@ footer .sociales .whatsapp{
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
+
 .form-registro h3{
     font-size: 23px ;
     margin-bottom: 20px;
 }
+
 .controls{
     width:100%;
     background: #24303c;
@@ -576,71 +660,3 @@ iframe{
 }
 
 /*fin turnos*/
-
-/*media */
-
-@media (max-width:480px){
-    header{height: 100% ;
-        
-    }
-
-    aside{
-        height: 100%;
-    }
-   main{
-       height: 100%;
-   }
-   footer{
-       height: 100%;
-   }
-
-   .conteiner__grid{
-       display: grid;
-       grid-template-columns: 1fr;
-       
-       grid-template-areas:
-       "header"
-       "aside"
-       "main"
-       "footer"
-        ;
-   }
- 
-
-
-
-}
-    
- /**
-@media (min-width:480px)and (max-width:768px){
-    header{height: 100% ;
-
-        header {
-
-            display: ;
-            flex-direction:column;
-        }
-
-    
-    aside{
-        height: 100%;
-    }
-    main{
-       height: 100%;
-    }
-    footer{
-       height: 100%;
-    }
-
-   .conteiner__grid{
-       display: grid;
-       grid-template-columns: 1fr;
-       grid-template-areas:
-       "header"
-       "aside"
-       "main"
-       "footer"
-        ;
-    }
-
-    
